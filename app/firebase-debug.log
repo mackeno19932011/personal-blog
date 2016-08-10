@@ -1,0 +1,26 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/longtran/.nvm/versions/node/v4.2.4/bin/node /Users/longtran/.nvm/versions/node/v4.2.4/bin/firebase deploy
+[debug] CLI Version:  3.0.4
+[debug] Platform:     darwin
+[debug] Node Version: v4.2.4
+[debug] Time:         Mon Jul 18 2016 22:10:13 GMT+0700 (ICT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/huehomhinh-817a7 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/huehomhinh-817a7/tokens 
+[debug] <<< HTTP RESPONSE 200
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/longtran/.nvm/versions/node/v4.2.4/bin/node /Users/longtran/.nvm/versions/node/v4.2.4/bin/firebase deploy
+[debug] CLI Version:  3.0.4
+[debug] Platform:     darwin
+[debug] Node Version: v4.2.4
+[debug] Time:         Mon Jul 18 2016 22:14:07 GMT+0700 (ICT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/huehomhinh-817a7 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/huehomhinh-817a7/tokens 
+[debug] <<< HTTP RESPONSE 200
