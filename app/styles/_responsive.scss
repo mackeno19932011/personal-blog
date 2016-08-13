@@ -6,6 +6,10 @@
 		background-color: rgba(0, 0, 0,.8);
 	}
 
+	.navbar-brand img {
+		display: none;
+	}
+
 	#home {
 		.section-title {
 			display: none;
@@ -35,6 +39,11 @@
 @media only screen and (min-width : 480px) {
 	.navbar-default {
 		background-color: rgba(0,0,0,.8);
+	}
+
+	.navbar-brand img {
+		display: block;
+		width: 48px;
 	}
 
 	#home .section-title {
@@ -72,6 +81,11 @@
 		background-color: rgba(248, 248, 248, 0);
 	}
 
+	.navbar-brand img {
+		display: block;
+		width: 78px;
+	}
+
 	#about img {
 		display: block	;
 		width: 	40%;
@@ -102,9 +116,17 @@
 		display: block;
 		width: 	100%;
 	}
+
+	.navbar-brand img {
+		display: block;
+		width: 99px;
+	}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+	.navbar-brand img {
+		display: block;
+		width: 100px;
+	}
 }

@@ -41,14 +41,5 @@ $(function() {
 	    }
 	  });
 
-	function initialize() {
-	  var mapProp = {
-	    center:new google.maps.LatLng(10.823099,106.629664),
-	    zoom:7,
-	    mapTypeId:google.maps.MapTypeId.ROADMAP
-	  };
-	  var map=new google.maps.Map(document.getElementById('map'), mapProp);
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
-
+	$(".rotate").textrotator();
 });
