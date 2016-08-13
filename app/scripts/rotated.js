@@ -1,4 +1,4 @@
-function($){
+(function ($) {
   var defaults = {
         animation: "dissolve",
         separator: ",",
@@ -26,7 +26,7 @@ function($){
           textShadowBlur:20,
           opacity: 0
         }, 500 , function() {
-          index = $.inArray(el.text(), array)
+          var index = $.inArray(el.text(), array)
           if((index + 1) == array.length) index = -1
           el.text(array[index + 1]).animate({
             textShadowBlur:0,
@@ -37,4 +37,4 @@ function($){
       setInterval(rotate, settings.speed);
     });
   }
-}(window.jQuery);
+}(window.jQuery));
