@@ -4,7 +4,7 @@ $(function() {
 	var topoffset = 100;
 
 	$('body').scrollspy({
-		target: '#navbar', 
+		target: '#navbar',
 		offset: topoffset
 	});
 
@@ -42,4 +42,12 @@ $(function() {
 	  });
 
 	$(".rotate").textrotator();
+
+  $(".animate-left").inViewport(function () {
+        $(this).addClass("animated fadeInLeft");
+  });
+
+  $(".animate-right").inViewport(function () {
+    $(this).addClass("animated fadeInRight");
+  });
 });

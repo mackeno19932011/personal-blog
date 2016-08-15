@@ -3,7 +3,6 @@
   "private": true,
   "dependencies": {
     "modernizr": "~2.8.1",
-    "animateCSS": "^1.2.1",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.6.3",
     "bootstrap-sass": "^3.3.7",
