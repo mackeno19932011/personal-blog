@@ -12,11 +12,11 @@ $(function() {
 		var hash = $(this).find('li.active a').attr('href');
 
 		if(hash == '#services') {
-			$('.col-md-4').addClass('wow fadeInLeft animated');
+			$('.row').addClass('zoomIn animated');
 		}
 
 		if(hash == '#contact') {
-			$('#top').addClass('ontop wow fadeInUp animated');
+			$('#top').addClass('ontop fadeInUp animated');
 		} else {
 			$('#top').removeClass('ontop');
 		}
@@ -50,4 +50,9 @@ $(function() {
   $(".animate-right").inViewport(function () {
     $(this).addClass("animated fadeInRight");
   });
+
+  $(".fade-in").inViewport(function () {
+    $(this).addClass("animated fadeInUp");
+  });
+
 });

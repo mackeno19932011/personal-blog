@@ -1,4 +1,4 @@
-(function ($, win) {
+(function ($) {
   var defaults = {
         animation: "dissolve",
         separator: ",",
@@ -107,4 +107,4 @@
       doCheck();
     });
   }
-}(window.jQuery, window));
+}(window.jQuery));

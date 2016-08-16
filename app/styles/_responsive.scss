@@ -1,6 +1,6 @@
 /*==========  Mobile First Method  ==========*/
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 	.navbar-default {
 		background-color: rgba(0, 0, 0,.8);
@@ -33,9 +33,13 @@
 			margin-left: 0;
 		}
 	}
+
+  .arrow-down {
+    display: none;
+  }
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 	.navbar-default {
 		background-color: rgba(0,0,0,.8);
@@ -108,6 +112,10 @@
 			font-weight: $font-weight-bold;
 		}
 	}
+
+  .arrow-down {
+    display: block;
+  }
 }
 
 /* Medium Devices, Desktops */
