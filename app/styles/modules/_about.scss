@@ -1,3 +1,22 @@
 #about {
-  padding: 100px 0px;
+  background: #ededed;
+  color: #646464;
+  padding: 100px 0;
+
+  h6 {
+    font-family: sans-serif;
+  }
+  .about-img {
+    width: 230px;
+    height: 230px;
+  }
+
+  .progress {
+    background-color: #51585d;
+
+    .progress-bar {
+      background-color: #869198;
+    }
+  }
 }
+
