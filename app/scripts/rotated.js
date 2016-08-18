@@ -4,22 +4,22 @@
         separator: ",",
         speed: 2000
     };
-
+    
     $.fx.step.textShadowBlur = function(fx) {
     $(fx.elem).prop('textShadowBlur', fx.now).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px black'});
   };
-
+    
   $.fn.textrotator = function(options){
     var settings = $.extend({}, defaults, options);
-
+    
     return this.each(function(){
       var el = $(this);
       var array = [];
-      $.each(el.text().split(settings.separator), function(key, value) {
-        array.push(value);
+      $.each(el.text().split(settings.separator), function(key, value) { 
+        array.push(value); 
       });
       el.text(array[0]);
-
+      
       // animation option
       var rotate = function() {
         el.animate({
