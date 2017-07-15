@@ -43,16 +43,4 @@ $(function() {
 
 	$(".rotate").textrotator();
 
-  $(".animate-left").inViewport(function () {
-        $(this).addClass("animated fadeInLeft");
-  });
-
-  $(".animate-right").inViewport(function () {
-    $(this).addClass("animated fadeInRight");
-  });
-
-  $(".fade-in").inViewport(function () {
-    $(this).addClass("animated fadeInUp");
-  });
-
 });
