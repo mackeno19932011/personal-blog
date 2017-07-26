@@ -24,4 +24,4 @@ Visit [http://localhost:9001](http://localhost:9001) and enjoy!
     # gulp serve:dist
 
 
-Visit [http://localhost:9001](http://localhost:9001) and enjoy!
+Visit [http://localhost:3000](http://localhost:3000) and enjoy!
